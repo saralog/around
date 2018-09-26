@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+html{
+	margin:0;
+	padding:0;
+	
+}
+.bg-light {
+    background-color: rgba(100,100,100,0.5) !important;
+}
+
+.nav-icon-space {
+	position: absolute;
+	top: 18px;
+    right: 100px;
+  
+}
+.slide-text-title{
+font-family: 'Russo One', sans-serif;	
+	
+}
+.slide-text{
+font-family: 'Share', cursive;
+padding-top:20px;	
+	
+}
+.row{
+	padding-top:20px;
+}
+.blockquote-footer{
+	text-align: center;
+}
+.title-wrapper{
+	width:80%;
+	margin:0 auto;
+	
+}
+.title-wrapper p{
+	text-align: center;
+	
+}
+.form-inline {
+    
+    align-items: left !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: rgba(255,255,255,0.9) !important;
+
+}
+.navbar-light .navbar-brand {
+    font-family: 'Russo One', sans-serif;
+}
+.nav-link{
+	font-family: 'Share', cursive;
+}
+body {
+	background-color: #fff;
+}
+.left{
+	background-color:#eee;
+	color: #111;
+}
+.center{
+	background-color:fff;
+	color: #111;
+}
+.right{
+	background-color:#eee;
+	color: #111;
+}
+.left h1{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;		
+}
+.left h2{
+	font-family: 'Share', cursive;
+	text-align: center;		
+}
+.left p{
+	font-family: 'Share', cursive;
+	text-align: justify;		
+}
+.center h1{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;			
+}
+.center h2{
+	font-family: 'Share', cursive;
+	text-align: center;		
+}
+.center p{
+	font-family: 'Share', cursive;
+	text-align: justify;	
+		
+}
+.right h1{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;			
+}
+.right h2{
+	font-family: 'Share', cursive;
+	text-align: center;		
+}
+.right p{
+	font-family: 'Share', cursive;
+	text-align: justify;			
+}
+@media (min-width: 1000px){ 
+.title-wrapper{
+	width:50% !important;
+	margin:0 auto;
+	
+}
+.left{
+	background-color:#fff !important;
+}
+.right{
+background-color:#fff !important;	
+}
+ }
+.footer {
+    height:50px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #969696;
+    color: #eee;
+    text-align: center;
+    font-family: 'Share', cursive;	
+}
